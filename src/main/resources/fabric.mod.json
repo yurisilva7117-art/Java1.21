@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "stone_break_speed",
+  "version": "${version}",
+  "name": "Stone Break Speed",
+  "description": "Makes obsidian, end stone and cobblestone have the same hardness as stone.",
+  "authors": ["YURI"],
+  "environment": "*",
+  "mixins": ["stone_break_speed.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
